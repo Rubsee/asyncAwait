@@ -1,6 +1,5 @@
 async function showThirdCharacterFromMovie2() {
     try {
-        // здесь твой код
         const movieResponse  = await fetch('https://swapi.dev/api/films/2/')
         const movie = await movieResponse.json()
 
